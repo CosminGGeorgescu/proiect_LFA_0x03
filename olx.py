@@ -55,6 +55,5 @@ for i in range(1, 26): #25 de pagini max are OLX-ul
             InsertIntoRanking(word, dict[word])
 end = timeit.default_timer()
 print(f"Done in {end - start} seconds!\n")
-print(maxes)
 for i in range(10):
     print(words[i], maxes[i])
